@@ -167,7 +167,51 @@
 // const car = Object.freeze({ model: "Malibu" });
 // console.log(checkFrozenStatus(car));
  
+// =========================================    13  -masala   ========================================================
+// =================================================================================================================
+
+
+// const objPerson = {name:"Ali"};
+// Object.seal(objPerson);
+// function addPropertys(){
+//     objPerson.age=22; objPerson.name="Vali";
+//     if(Object.isSealed(objPerson)) console.log("Cannot add new property");
+//     else console.log(objPerson); console.log(objPerson);
+// }; 
+// const addPropertys = function (){
+//     objPerson.age=22; objPerson.name="Vali";
+//     if(Object.isSealed(objPerson)) console.log("Cannot add new property");
+//     else console.log(objPerson); console.log(objPerson);
+// };
+// const addPropertys = () =>{
+//     objPerson.age=22; objPerson.name="Vali";
+//     if(Object.isSealed(objPerson)) console.log("Cannot add new property");
+//     else console.log(objPerson); console.log(objPerson);
+// };
+// addPropertys();
+
 // =========================================    14  -masala   ========================================================
+// =================================================================================================================
+
+
+// const phone = {brand:"iPhone"};
+// Object.seal(phone)
+// function itIsSealed(){
+//     if(Object.isSealed(phone)) console.log("Selaed");
+//     else console.log("Not-Sealed"); 
+// };
+// const itIsSealed = function() {
+//     if(Object.isSealed(phone)) console.log("Selaed");
+//     else console.log("Not-Sealed"); 
+// };
+// const itIsSealed = () => {
+//     if(Object.isSealed(phone)) console.log("Selaed");
+//     else console.log("Not-Sealed"); 
+// };
+// itIsSealed();
+
+
+// =========================================    15  -masala   ========================================================
 // =================================================================================================================
 
 // function checkProperty(obj, key) {
